@@ -1,0 +1,39 @@
+section{
+	background:red;
+}
+
+.dos{
+	background:coral;
+}
+
+#navegacion{display: none;}
+
+#navegacion:target{
+	display:block;
+	width:200px; 
+	border:solid 2px green;
+	margin-top:10px;
+	margin-left:0px;
+}
+
+#navegacion li {
+	border:solid 2px orange;padding:10px;margin:5px;
+}
+
+#menu{
+	background: url(menu.png) no-repeat;
+	width: 36px; 
+	height: 36px;
+	display:inline-block;
+	font-size:0;
+	border:solid 1px blue; 
+	margin-top:0px; 
+	margin-left:0px;
+}
+
+#cerrar{
+	display:block;
+	background:url(cerrar.png) no-repeat;
+	width: 36px;
+	height: 36px; 
+	font-size: 0}

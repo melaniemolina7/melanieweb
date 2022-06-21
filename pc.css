@@ -1,0 +1,16 @@
+section{
+	background:blue;
+}
+
+#navegacion li{
+	display:inline-block;
+	width:100px;
+}
+
+#menu{
+	display:none;
+}
+
+#cerrar{
+	display:none
+}
